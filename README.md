@@ -103,6 +103,8 @@ print the first main dish
 
 print the last dessert
 
+---
+
 ### Exercise 11 – Manipulate Arrays With push()
 
 Add "soup" to the end of the menuItems array.
