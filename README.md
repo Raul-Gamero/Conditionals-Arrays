@@ -93,13 +93,6 @@ Create an array `restaurantMenu` containing:
 - an array of main dishes
 - an array of desserts
 
-Expected structure example:
-```js
-[
-  ["pizza", "burger"],
-  ["ice cream", "cake"]
-]
-
 Exercise 10 – Access Multi-Dimensional Arrays With Indexes
 
 From the array above:
