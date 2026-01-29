@@ -95,7 +95,7 @@ Create an array `restaurantMenu` containing:
 
 ---
 
-Exercise 10 – Access Multi-Dimensional Arrays With Indexes
+### Exercise 10 – Access Multi-Dimensional Arrays With Indexes
 
 From the array above:
 
@@ -103,25 +103,25 @@ print the first main dish
 
 print the last dessert
 
-Exercise 11 – Manipulate Arrays With push()
+### Exercise 11 – Manipulate Arrays With push()
 
 Add "soup" to the end of the menuItems array.
 
 ---
 
-Exercise 12 – Manipulate Arrays With pop()
+### Exercise 12 – Manipulate Arrays With pop()
 
 Remove the last item from menuItems and print it.
 
 ---
 
-Exercise 13 – Manipulate Arrays With shift()
+### Exercise 13 – Manipulate Arrays With shift()
 
 Remove the first item from menuItems and print the updated array.
 
 ---
 
-Exercise 14 – Manipulate Arrays With unshift()
+### Exercise 14 – Manipulate Arrays With unshift()
 
 Add "bread" to the beginning of the menuItems array.
 
