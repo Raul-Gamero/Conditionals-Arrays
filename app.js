@@ -54,3 +54,31 @@ function compareWithStrictEquality(a, b) {
 
 console.log(compareWithStrictEquality(5, "5"));
 console.log(compareWithStrictEquality(5, 5));
+
+/**
+ * Exercise 3 – Practice Comparing Different Values
+ * Create a function compareNumbers(a, b) that:
+ * 
+ * returns "a is greater than b" if a > b
+ * returns "a is less than b" if a < b
+ * returns "a is equal to b" if a === b
+ */
+function compareNumbers(a, b) {
+
+    let comparison;
+
+    if (a > b) {
+        comparison = 'a is greater than b';
+    } else if (a < b) {
+        comparison = 'a is less than b';
+    } else if (a === b) {
+        comparison = 'a is equal to b';
+    }
+
+    return comparison;
+}
+
+console.log(compareNumbers(7, 5));
+console.log(compareNumbers(3, 6));
+console.log(compareNumbers(4, 4));
+console.log(compareNumbers("5", "5"));
