@@ -144,11 +144,11 @@ gradeScore(47);
 
 function weatherMessage(temperature) {
 
-if (temperature > 25) {
+    if (temperature > 25) {
         console.log("Hot");
-    } else if (temperature >= 16) { 
+    } else if (temperature >= 16) {
         console.log("Warm");
-    } else if (temperature >= 0) { 
+    } else if (temperature >= 0) {
         console.log("Cold");
     } else {
         console.log("Very cold");
@@ -159,3 +159,29 @@ weatherMessage(27);
 weatherMessage(20);
 weatherMessage(15);
 weatherMessage(-3);
+
+/**
+ * Exercise 7 – Logical Operators (&&, ||)
+ * Write a function canAccess(age, hasPermission) that:
+ * 
+ * returns "Access granted" if age >= 18 AND hasPermission === true
+ * returns "Access denied" otherwise
+*/
+
+function canAccess(age, hasPermission) {
+
+    let access;
+
+    if (age >= 18 && hasPermission === true) {
+        access = "Access granted";
+    } else {
+        access = "Access denied"
+    }
+
+    return access;
+}
+
+console.log(canAccess(15, true));
+console.log(canAccess(19, false));
+console.log(canAccess(18, true));
+console.log(canAccess(25, true));
