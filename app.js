@@ -102,3 +102,32 @@ function checkAge(age) {
 
 checkAge(21);
 checkAge(17);
+
+/**
+ * Exercise 5 – Logical Order in If Else Statements
+ *Write a function gradeScore(score) that:
+ *
+ *returns "Excellent" if score >= 90
+ *returns "Good" if score >= 70
+ *returns "Average" if score >= 50
+ *returns "Fail" otherwise
+ *⚠️ Be careful with the order of conditions.
+*/
+
+function gradeScore(score) {
+
+    if (score >= 90) {
+        console.log("Excellent");
+    } else if (score >= 70) {
+        console.log("Good");
+    } else if (score >= 50) {
+        console.log("Average");
+    } else {
+        console.log("Fail");
+    }
+}
+
+gradeScore(52);
+gradeScore(73);
+gradeScore(95);
+gradeScore(47);
