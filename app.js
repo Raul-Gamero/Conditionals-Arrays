@@ -131,3 +131,31 @@ gradeScore(52);
 gradeScore(73);
 gradeScore(95);
 gradeScore(47);
+
+/**
+ * Exercise 6 – Chaining If Else Statements
+ * Create a function weatherMessage(temperature) that:
+ * 
+ * returns "Very cold" if temperature < 0
+ * returns "Cold" if temperature is between 0 and 15
+ * returns "Warm" if temperature is between 16 and 25
+ * returns "Hot" if temperature > 25
+*/
+
+function weatherMessage(temperature) {
+
+if (temperature > 25) {
+        console.log("Hot");
+    } else if (temperature >= 16) { 
+        console.log("Warm");
+    } else if (temperature >= 0) { 
+        console.log("Cold");
+    } else {
+        console.log("Very cold");
+    }
+}
+
+weatherMessage(27);
+weatherMessage(20);
+weatherMessage(15);
+weatherMessage(-3);
