@@ -82,3 +82,23 @@ console.log(compareNumbers(7, 5));
 console.log(compareNumbers(3, 6));
 console.log(compareNumbers(4, 4));
 console.log(compareNumbers("5", "5"));
+
+/**
+ * Exercise 4 – Use Conditional Logic with If Statements
+ * Write a function checkAge(age) that:
+ * 
+ * prints "Minor" if the age is less than 18
+ * prints "Adult" otherwise
+*/
+
+function checkAge(age) {
+
+    if (age < 18) {
+        console.log("Minor");
+    } else {
+        console.log("Adult");
+    }
+}
+
+checkAge(21);
+checkAge(17);
