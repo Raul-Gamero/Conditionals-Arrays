@@ -214,3 +214,15 @@ const restaurantMenu = [
     ["beef_steak", "grilled_salmon", "vegetable_lasagna", "fish_tacos"],
     ["chocolate_cake", "apple_pie", "ice_cream", "cheesecake"]
 ];
+
+/**
+ * Exercise 10 – Access Multi-Dimensional Arrays With Indexes
+ * From the array above:
+ * 
+ * print the first main dish
+ * 
+ * print the last dessert
+*/
+
+console.log(restaurantMenu[0][0]);
+console.log(restaurantMenu[1][3]);
