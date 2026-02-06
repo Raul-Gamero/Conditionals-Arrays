@@ -233,3 +233,10 @@ console.log(restaurantMenu[1][3]);
 */
 
 menuItems.push("soup");
+
+/**
+ * Exercise 12 – Manipulate Arrays With pop()
+ * Remove the last item from menuItems and print it.
+*/
+
+console.log(menuItems.pop());
