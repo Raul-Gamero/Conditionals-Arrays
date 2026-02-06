@@ -201,3 +201,16 @@ console.log(canAccess(25, true));
 const menuItems = ["beef_kebab", "roast_chicken", "rice", "salad"];
 
 console.log(menuItems);
+
+/**
+ * Exercise 9 – Nest One Array Within Another Array
+ * Create an array restaurantMenu containing:
+ * 
+ * an array of main dishes
+ * an array of desserts
+*/
+
+const restaurantMenu = [
+    ["beef_steak", "grilled_salmon", "vegetable_lasagna", "fish_tacos"],
+    ["chocolate_cake", "apple_pie", "ice_cream", "cheesecake"]
+];
