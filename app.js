@@ -240,3 +240,11 @@ menuItems.push("soup");
 */
 
 console.log(menuItems.pop());
+
+/**
+ * Exercise 13 – Manipulate Arrays With shift()
+ * Remove the first item from menuItems and print the updated array.
+*/
+
+menuItems.shift();
+console.log(menuItems);
