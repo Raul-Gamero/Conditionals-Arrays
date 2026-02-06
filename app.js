@@ -185,3 +185,19 @@ console.log(canAccess(15, true));
 console.log(canAccess(19, false));
 console.log(canAccess(18, true));
 console.log(canAccess(25, true));
+
+/**
+ * 📦 Part 2 – Arrays
+ * Exercise 8 – Store Multiple Values in One Variable
+ * Create an array called menuItems containing:
+ * 
+ * "beef_kebab"
+ * "roast_chicken"
+ * "rice"
+ * "salad"
+ * Print the array to the console.
+*/
+
+const menuItems = ["beef_kebab", "roast_chicken", "rice", "salad"];
+
+console.log(menuItems);
