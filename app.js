@@ -226,3 +226,10 @@ const restaurantMenu = [
 
 console.log(restaurantMenu[0][0]);
 console.log(restaurantMenu[1][3]);
+
+/**
+ * Exercise 11 – Manipulate Arrays With push()
+ * Add "soup" to the end of the menuItems array.
+*/
+
+menuItems.push("soup");
