@@ -248,3 +248,42 @@ console.log(menuItems.pop());
 
 menuItems.shift();
 console.log(menuItems);
+
+/**
+ * Exercise 14 – Manipulate Arrays With unshift()
+ * Add "bread" to the beginning of the menuItems array.
+ * 
+ * ✅ Bonus (Optional)
+ * 
+ * Create a function that loops through an array and prints each item
+ * 
+ * Combine arrays + conditionals (example: check if a dish exists in the menu)
+*/
+
+menuItems.unshift("bread");
+
+function listMenuItems(menu) {
+
+    for (dish of menu) {
+        console.log(dish);
+    }
+}
+
+listMenuItems(menuItems);
+
+function findMenuItem(menu, dish) {
+
+    const index = menu.indexOf(dish);
+    
+    if (index !== -1) {
+        console.log(`Dish "${dish}" exists on the menu.`);
+    } else {
+        console.log(`Dish "${dish}" doesn't exist on the menu.`);
+    }
+    
+    return index;
+}
+
+console.log(findMenuItem(restaurantMenu[0], "grilled_salmon"));
+console.log(findMenuItem(restaurantMenu[1], "fruit_salad"));
+console.log(findMenuItem(menuItems, "bread"));
