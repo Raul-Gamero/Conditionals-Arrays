@@ -190,6 +190,7 @@ console.log("First main dish:", restaurantMenu[0][0]); // "beef_kebab"
 // Last dessert (second array, last element)
 // restaurantMenu[1] = desserts array
 // restaurantMenu[1].length = 4, so last index is 3 (length - 1)
+// Length property returns the number of elements in an array
 let dessertsArray = restaurantMenu[1];
 let lastDessert = dessertsArray[dessertsArray.length - 1];
 console.log("Last dessert:", lastDessert); // "tiramisu"
